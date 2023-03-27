@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-01T23:41:38 PST" name="FlipkartSuit" finished-at="2023-03-01T23:41:59 PST" duration-ms="20727">
+    <groups>
+    </groups>
+    <test started-at="2023-03-01T23:41:38 PST" name="ChromeTest" finished-at="2023-03-01T23:41:59 PST" duration-ms="20727">
+      <class name="test_Classes.TestNG2">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test_Classes.TestNG2@1de76cc7]" started-at="2023-03-01T23:41:38 PST" name="launchBrowser" finished-at="2023-03-01T23:41:44 PST" duration-ms="5729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:test_Classes.TestNG2@1de76cc7]" started-at="2023-03-01T23:41:44 PST" name="createPOMObject" finished-at="2023-03-01T23:41:44 PST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="launchurl()[pri:0, instance:test_Classes.TestNG2@1de76cc7]" started-at="2023-03-01T23:41:44 PST" name="launchurl" finished-at="2023-03-01T23:41:54 PST" duration-ms="9888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="verifyShopNowButton()[pri:0, instance:test_Classes.TestNG2@1de76cc7]" started-at="2023-03-01T23:41:54 PST" name="verifyShopNowButton" finished-at="2023-03-01T23:41:57 PST" duration-ms="3430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShopNowButton -->
+        <test-method is-config="true" signature="logoutApplication()[pri:0, instance:test_Classes.TestNG2@1de76cc7]" started-at="2023-03-01T23:41:57 PST" name="logoutApplication" finished-at="2023-03-01T23:41:57 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApplication -->
+        <test-method is-config="true" signature="clearPOMObjects()[pri:0, instance:test_Classes.TestNG2@1de76cc7]" started-at="2023-03-01T23:41:57 PST" name="clearPOMObjects" finished-at="2023-03-01T23:41:57 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObjects -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test_Classes.TestNG2@1de76cc7]" started-at="2023-03-01T23:41:57 PST" name="closeBrowser" finished-at="2023-03-01T23:41:59 PST" duration-ms="1489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test_Classes.TestNG2 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- FlipkartSuit -->
+</testng-results>
